@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Survey Form</title>
+	</head>
+	<body>
+		<!-- header -->
+		<header id="header">
+			<div class="container">
+				<h1 class="display-4 text-center col-12 mt-4 text-white" id="title">Sample Survey Form</h1>
+				<p class="text-center text-white" id="description">Thank you for taking the time to help us improve the platform</p>
+			</div>
+		</header>
+		<main>
+			<form class="container col-lg-5 col-md-8 col-10 mt-5 mb-5" action="./index.html" id="survey-form">
+				<div class="form-group pt-3">
+					<label for="name" class="font-weight-bold text-white font">Name</label>
+					<input type="text" name="name" class="form-control" id="name" placeholder="Enter Your Name" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="email" class="font-weight-bold text-white">Email</label>
+					<input class="form-control" type="email" name="email" id="email"  placeholder="Enter Your Email" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="age" class="font-weight-bold text-white">Age</label>
+					<input class="form-control" type="number" name="age" id="age" placeholder="Age" min="1" max="120" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="dropdown" class="font-weight-bold text-white">Which option best describes your current role?</label>
+					<select class="form-control" id="dropdown">
+						<option value="" disabled selected>Select Current Role</option>
+						<option value="Student">Student</option>
+						<option value="Full Time Job">Full Time Job</option>
+						<option value="Full Time Learner">Full Time Learner</option>
+						<option value="Prefer Not To Say">Prefer Not To Say</option>
+						<option value="Other">Other</option>
+					</select>
+				</div>
+				<div class="form-group text-white">
+					<label for="gender" class="font-weight-bold">Gender</label>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input class="form-check-input" type="radio" name="gender" value="Male" checked> Male
+						</label>
+					</div>
+					
+					<div class="form-check">
+						<label class="form-check-label">
+							<input class="form-check-input" type="radio" name="gender" value="Female" > Female
+						</label>
+					</div>
+					
+					<div class="form-check">
+						<label class="form-check-label">
+							<input class="form-check-input" type="radio" name="gender" value="Other"> Other
+						</label>
+					</div>
+				</div>
+				
+				<div class="form-group text-white">
+					<label for="interests" class="font-weight-bold">Interests</label>
+						
+						<div class="form-check">
+							<label class="form-check-label pt-1">
+								<input class="form-check-input" type="checkbox" id="interests" name="frontend" value="frontend">Front-End Development
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="backend" value="backend">Back-End Development
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="database" value="database">Database
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="other" value="other">Other
+							</label>
+						</div>
+					</div>
+					
+					
+					<div class="form-group">
+						<label for="comments" class="font-weight-bold text-white">Any Suggestions or Comments</label>
+						<textarea class="form-control" id="comments" rows="5" name="comments" placeholder="Enter your comments here..."></textarea>
+					</div>
+					
+					<div class="text-center">
+						<button class="btn btn-success col-12 mb-4 mt-2" id="submit">Submit</button>
+					</div>
+				</form>
+			</main>
+			<!-- Script -->
+			<script src="script/script.js" type="text/javascript"></script>
+		</body>
+	</html>

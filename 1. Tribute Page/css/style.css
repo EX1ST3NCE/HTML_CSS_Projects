@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #0d0b08;
+	padding: 40px 0px 40px 0px;
+	color: #e6e2d8;
+}
+.title h2{
+	text-align: center;
+	font-size: 30px;
+}
+.title p{
+	text-transform: capitalize;
+	text-align: center;
+	padding-top: 10px;
+	color: #9e9c96;
+}
+img{
+	display: block;
+	width:  960px;
+}
+/* Resposive image with max-width and height*/
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+#img-div{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+} 	
+figcaption{
+	font-size: 20px;
+	padding-top: 20px;
+	font-family: roboto;
+	font-weight: 100;
+	text-align: center;
+}
+#tribute-info{
+	margin-top: 60px;
+	background-color: #000;
+}
+#tribute-info h3{
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-family: roboto;
+	font-size: 20px;
+}
+#tribute-info ul{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: white;
+	
+}
+#tribute-info li{
+	padding-top: 15px;
+	text-align: justify;
+	font-size: 17px;
+	width: 550px;
+	margin: auto;
+}
+#tribute-info li b{
+	font-size: 18px;
+	font-family: "Raleway", sans-serif;
+}
+#quote{
+	padding-top: 30px;
+	color: silver;
+	text-align: center;
+}
+.tribute{
+	padding-top: 40px;
+	color: gray;
+	text-align: center;
+	padding-bottom: 80px;
+}
+.tribute p{
+	font-size: 18px;
+}
+#tribute-link{
+	text-decoration: none;
+	color: orange;
+}

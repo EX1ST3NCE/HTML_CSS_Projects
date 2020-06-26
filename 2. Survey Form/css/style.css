@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: linear-gradient(rgba(103, 151, 199,0.45),rgba(54, 128, 201,0.45))
+	                  ,url('../img/laptop.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 100%;
+	height: auto;
+}
+h1{
+	font-family: 'Cantora One', sans-serif;
+}
+form{
+	background-color: rgba(50, 72, 94,0.7);
+	border-radius: 10px;
+	height: auto;
+}
+button{
+	width:  10rem;
+	height: 3rem;
+}
