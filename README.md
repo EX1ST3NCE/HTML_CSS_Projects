@@ -1,4 +1,4 @@
-# web_dev_projects
+#HTML5 & CSS3 Projects
 Few of my web development projects, that I made for practice.
 
 Project 1 - A tribute web page for Mahatma Gandhi (HTML5, CSS3)
